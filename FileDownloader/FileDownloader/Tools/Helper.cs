@@ -77,8 +77,6 @@ namespace FileDownloader.Tools
                 await Task.WhenAll(tasks);
 
                 await DownloadComplateAsync();
-
-                MessageBox.Show("下载完成！");
             }
             catch 
             {
