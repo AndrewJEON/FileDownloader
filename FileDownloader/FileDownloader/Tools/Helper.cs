@@ -111,13 +111,10 @@ namespace FileDownloader.Tools
         /// </summary>
         /// <param name="fileBlock"></param>
         /// <param name="url"></param>
-        public static Task DownloadBlockAsync(Object obj)
+        public static Task DownloadBlockAsync(FileBlock fileBlock)
         {
             return Task.Run(() =>
             {
-                FileBlock fileBlock = obj as FileBlock;
-                if (fileBlock.IsComplate) return;
-
                 try
                 {
                     HttpWebRequest httpRequest = WebRequest.Create(fileBlock.FileUrl) as HttpWebRequest;
