@@ -5,7 +5,6 @@ using System.Net;
 using System.Runtime.Serialization.Json;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows;
 
 namespace FileDownloader.Tools
 {
@@ -126,6 +125,7 @@ namespace FileDownloader.Tools
                     HttpWebResponse httpResponse = httpRequest.GetResponse() as HttpWebResponse;
                     using (var httpStream = httpResponse.GetResponseStream())
                     {
+                        httpStream.ReadTimeout = 2000;
                         using (FileStream fs = new FileStream(fileBlock.BlockPath, FileMode.OpenOrCreate))
                         {
                             int readBytes = 0;
@@ -134,9 +134,10 @@ namespace FileDownloader.Tools
                             while (true)
                             {
                                 readBytes = httpStream.Read(buffer, 0, buffer.Length);
-                                // Debug.WriteLine($"thread {Thread.CurrentThread.ManagedThreadId}: readBytes = {readBytes}");
                                 if (readBytes <= 0 || fileBlock.IsComplate)
+                                {
                                     break;
+                                }
                                 fs.Write(buffer, 0, readBytes);
                                 fileBlock.CurPos += readBytes;
                             }

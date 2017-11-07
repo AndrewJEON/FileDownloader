@@ -91,7 +91,7 @@ namespace FileDownloader
                 Progress.Visibility = Visibility.Visible;
                 await Helper.DownloadAsync(url, path);
 
-                MessageBox.Show("下载完成！");
+                System.Windows.MessageBox.Show("下载完成！");
             }
             catch (Exception ex)
             {

@@ -1,0 +1,15 @@
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\MainWindow.g.cs
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\App.g.cs
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader_MarkupCompile.cache
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader_MarkupCompile.lref
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\bin\Debug\FileDownloader.exe.config
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\bin\Debug\FileDownloader.exe
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\bin\Debug\FileDownloader.pdb
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\MainWindow.baml
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader.g.resources
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader.Properties.Resources.resources
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader.csproj.GenerateResource.Cache
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader.csproj.CoreCompileInputs.cache
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader.exe
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader.pdb
+F:\dotnet\uwp\project\FileDownloader\FileDownloader\FileDownloader\obj\Debug\FileDownloader.csprojResolveAssemblyReference.cache
